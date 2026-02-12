@@ -3,10 +3,13 @@
 This repository contains the code for the paper:
 
 **"Language and Experience: A Computational Model of Social Learning in Complex Tasks"**
+
 *Cédric Colas, Tracey Mills, Ben Prytawski, Michael Henry Tessler, Noah Goodman, Jacob Andreas, Joshua Tenenbaum*
+
 CogSci 2025 and ICLR 2026
 
 [Paper link](https://arxiv.org/abs/2509.00074)
+
 [Demo website](https://cedriccolas.com/demos/language_and_experience/)
 
 ## Abstract
