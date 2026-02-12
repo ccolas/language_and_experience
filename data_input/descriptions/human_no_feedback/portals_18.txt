@@ -1,0 +1,1 @@
+Use your arrow key to navigate through the colors. You win when you touch the light green with your blue color. You die when you touch the light red. Touch the blue gives you access to the light green color.

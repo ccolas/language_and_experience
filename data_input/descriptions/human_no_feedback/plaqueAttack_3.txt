@@ -1,0 +1,1 @@
+The goal is to protect the yellow,red and green cubes  cubes from the orange and brown ones. you can move diffrent directions using the arrow keys and shoot using the space bar

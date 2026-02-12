@@ -1,0 +1,3 @@
+Use arrow keys to move and spacebar to use block ability
+Stop other colored blocks from reaching your green blocks by using arrow keys and spacebar
+When other colored blocks are all gone round is over

@@ -1,0 +1,1 @@
+Use arrow keys to move your blue and position it where it can touch the most falling red objects. Press the spacebar rapidly to ensure contact with red as they fall. To win, you must eliminate all red objects. Be careful not to miss too many red, as this could cause you to lose the level. Keep an eye on the speed of the falling objects and adjust your position accordingly!

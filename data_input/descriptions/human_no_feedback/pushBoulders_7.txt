@@ -1,0 +1,4 @@
+Use arrow keys on keyboard to move
+Avoid orange blocks or you will die
+Push green blocks on top of orange blocks to safely pass
+Get to gold block to win

@@ -1,0 +1,1 @@
+Do not let the light blue touch you. Use arrow to move and use space to change purple back to green. You must keep some green to advance after a given time. Light blue is death, keep green with space to move on.

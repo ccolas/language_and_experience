@@ -1,0 +1,1 @@
+You are darkblue, use arrow keys to move and use spacebar to attack with pink in the direction you last moved. Red and gold will move towards green and destroy green which loses points. Attack red and gold to earn points, and win when all are destroyed.

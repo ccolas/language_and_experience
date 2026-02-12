@@ -1,0 +1,33 @@
+# Individual Learning Configuration
+# Agent learns from experience only, without access to language descriptions
+
+experiment:
+  condition: individual
+  exp_id: individual_learning
+  n_lives: 15
+  stop_when_solved: true
+
+language:
+  use_language_proposal: false
+  use_language_likelihood: false
+  msg_source: null
+
+inference:
+  algorithm: smc
+  n_particles: 20
+  n_smc_steps: 1
+  n_mcmc_steps: 5
+  n_simulations_likelihood: 10
+  n_transitions_likelihood: 250
+
+planning:
+  planner_type: evo
+  time_budget: 2
+  stickiness: 0.15
+  discount: 0.99
+  planning_horizon_info: [4, 10, 5]
+  safety_trials: 20
+  safety_distance: 3
+
+# Example usage:
+# python run_experiment.py --game beesAndBirds --condition individual --n-lives 15

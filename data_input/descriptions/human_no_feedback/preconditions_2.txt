@@ -1,0 +1,1 @@
+move with arrow keys. Pick up white boxes to be able to move through the green each white square will allow you to move through one green square. Lose a life if you touch a green square. Red square is bonus.

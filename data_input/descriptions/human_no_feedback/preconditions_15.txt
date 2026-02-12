@@ -1,0 +1,1 @@
+To move the darkblue square you press the arrow keys. To win the game you must touch the yellow square but green the squares are preventing that. If you the green squares you can die unless you touched the white square for more health. Touching 1 white square allows you to destroy 1 green square. So touching 2 white allows you to destroy 2 green and so on. You can also touch red.

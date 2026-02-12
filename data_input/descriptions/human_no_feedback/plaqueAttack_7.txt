@@ -1,0 +1,1 @@
+Use your arrows to shoot from your square to protect the red and yellow squares. If the other colors get to red and yellow and turn them before you can eliminate them, you lose.

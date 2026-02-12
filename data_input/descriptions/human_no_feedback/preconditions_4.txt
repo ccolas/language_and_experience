@@ -1,0 +1,1 @@
+You are darkblue, use arrow keys to move. Touch gold to win. White gives 1 energy, moving in green takes 1 energy. Red does nothing.

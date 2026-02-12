@@ -1,0 +1,1 @@
+Control the darkblue with arrow keys. To win, avoid white while keeping dark blue alive.Touch red with darkblue to turn it to yellow

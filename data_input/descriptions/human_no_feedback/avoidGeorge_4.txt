@@ -1,0 +1,1 @@
+Keep all squares green by pressing the space bar over them if they get turned to purple.  You die if the light blue square touches you, you lose if all square get turned purple. 

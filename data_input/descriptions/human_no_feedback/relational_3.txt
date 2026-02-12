@@ -1,0 +1,1 @@
+Use the arrow keys to move the orange cubes to merge the darkblue and white cubes by pressing the space bar key. Avoid colliding with the rest of the cubes in the game

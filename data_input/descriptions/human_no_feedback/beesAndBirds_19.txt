@@ -1,0 +1,1 @@
+Avoid yellow, interact with green to win. Walk on purple to free the lightgreen helper, which will eat the orange squares blocking your path.

@@ -1,0 +1,4 @@
+Its a portal game.
+Lightblue and blue squares transport you.
+Avoid orange, darkgreen, pink, and red.
+Transport yourself into the the box with lightgreen and run into lightgreen to win.

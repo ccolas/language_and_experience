@@ -1,0 +1,1 @@
+Control the darkblue with arrow keys. To win, avoid hitting any other color while keeping dark blue alive.Avoid the dark orange, dark brown and blue as much as possible as it will kill you.

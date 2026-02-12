@@ -1,0 +1,3 @@
+Save the green squares but using spacebar to eat ALL opposing colors (use arrow keys to direct your mouth).
+At least one green square needs to survive in order to win.
+Warning: Yellow squares move very fast.

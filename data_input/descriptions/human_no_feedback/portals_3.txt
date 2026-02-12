@@ -1,0 +1,1 @@
+Objective is to get to the light green square. You will need to use other squares to teleport to different areas. For example, you will use the yellow square which will transport you to a different part of the map. you must find one of the squares that will transport you to the light green squares. 

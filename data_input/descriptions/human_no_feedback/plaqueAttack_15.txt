@@ -1,0 +1,1 @@
+You move the darkblue square by pressing the arrows keys and shoot at other squares by pressing space. To win level you must protect all the yellow and red squares by destroy all the moving orange and/or brown squares. You lose a life when the brown and orange squares touch all the yellow and red squares. You also lose a life when a brown or orange square touches you.

@@ -1,0 +1,1 @@
+Avoid all moving squares or you will lose a life. You must use the stationary squares to teleport to the end goal, orange.

@@ -1,0 +1,1 @@
+The goal of the game is to move the blue square over the yellow square using the arrow keys. Touching an orange square will lose the game. touching a light blue square makes it disappear. You can move green squares and use the to to remove orange and pink squares.

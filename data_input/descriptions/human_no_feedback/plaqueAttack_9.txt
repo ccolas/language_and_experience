@@ -1,0 +1,1 @@
+Your task is to eliminate the falling blocks. The orange and brown ones are constantly falling. You earn points by eliminating them. You can move your character towards a certain way and have them shoot.

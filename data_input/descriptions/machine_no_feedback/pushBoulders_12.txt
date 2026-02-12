@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square. To win, eliminate all gold objects - you can kill them by touching them, or push green objects onto them for the same effect. You'll also earn points when green objects kill gold on their own. Be careful not to touch orange or pink, as they'll kill you instantly, resulting in game over.

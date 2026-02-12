@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square. To win, eliminate all lightgreen objects by touching them, which earns you points. Be careful, as darkgreen, pink and lightred will kill you on contact - avoid them to stay alive. You can teleport using lightblue to gold or blue to lightorange to help navigate the map.

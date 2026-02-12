@@ -1,0 +1,1 @@
+Move the darkblue square by pressing the arrows keys. You win the game the touching the green square, you can also touch red but not needed. Avoid touching the moving yellow square because they can kill you. The green squares can destroy the yellow and orange squares when you free it from the purple squares. You can destroy purple squares by touching it.

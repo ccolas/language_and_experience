@@ -1,0 +1,1 @@
+Your goal is to hit all the orange boxes before they hit the ground. You move around with the arrow keys, and shoot with the space bar. You have to avoid the red blocks which are falling, or you will die. There are white openings which you can shoot.

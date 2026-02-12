@@ -1,0 +1,1 @@
+I think if you move the block over the purple and reds you will win the game. You will lose the game if you go over other color blocks.

@@ -1,0 +1,1 @@
+Avoid all moving blocks. Go to non-moving blocks to get transported. Need to get to lightgreen to win.

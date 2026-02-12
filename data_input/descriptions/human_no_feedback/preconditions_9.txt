@@ -1,0 +1,1 @@
+Game 5: Move your dark blue square onto the white squares to activate them. Once a white square is activated, you can safely pass through the green squares. However, only one green square will disappear per activated white square. Avoid touching the green squares unless they're activated. 

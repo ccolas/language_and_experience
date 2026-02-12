@@ -1,0 +1,1 @@
+Strategically collect all of the white boxes to gain health.  Touching green takes away health.  Your goal is to get the yellow square. This can be achieved by using the white squares like fuel.  Grey square do nothing and red squares don't give you any health, either. 

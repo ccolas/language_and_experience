@@ -1,0 +1,1 @@
+Control the darkblue with arrow keys. To win, eliminate all gold - you can kill them directly by touching, or push green onto them. You'll also earn points when green kills gold. Be careful: orange and pink will kill you on contact. You can also kill lightblue by touching, but remember your main goal is to eliminate gold.

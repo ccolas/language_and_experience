@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue. To win, eliminate all gold by touching them or pushing green onto them. You get points for each gold killed, whether by you or by green. Be careful not to touch orange or pink, as they'll kill you instantly. You can also push green around to help kill gold and earn points - just keep an eye out for those deadly orange and pink objects.

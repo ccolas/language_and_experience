@@ -1,0 +1,1 @@
+Use the arrow key to navigate and the space bar to shoot. Try shooting the pink color ad much as you can. The pink turns red and can kill you so avoid the red colors. You win when you have killed all pink color and you loss when the red color touches you.

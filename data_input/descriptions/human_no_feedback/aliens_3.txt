@@ -1,0 +1,1 @@
+You must use space bar to shoot and hit the pink moving squares. You are also needed to dodge the red squares that are being shot by the pink squares. You will dodge by using the left, right, up and down keys. You must destroy all the pink squares before they reach the bottom.

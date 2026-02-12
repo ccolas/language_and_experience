@@ -1,0 +1,1 @@
+Move with arrows and push both of the blue squares into yellow squares to win. If no yellow squares exist, they can be created by pushing orange into other colors (red turns to orange when pushed). Avoid contact with white!

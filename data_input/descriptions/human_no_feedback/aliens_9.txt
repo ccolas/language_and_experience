@@ -1,0 +1,9 @@
+The Dark Blue Square(You) moves(using arrows) across the bottom of the map while firing shots(Spacebar) towards the pink squares(Enemies) that fly across the screen.
+
+The pink squares are dropping red squares(deadly) on you and your white shields(resources) while the pink squares are trying to reach the bottom by moving down one row at a time.
+
+Your goal is to destroy the pink squares, the orange and brown squares creating the pink squares disappear on their own, they can't be destroyed.
+
+You can shoot through your own shields to aim and prepare shots and to move behind them as cover.
+
+I recommend staying in one spot while firing, only to move to avoid red squares, and to reposition your shots so they line up with the enemy.

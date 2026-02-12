@@ -1,0 +1,1 @@
+You are darkblue, move with arrow keys and navigate to gold to win. Orange and pink are dangerous. Green can be pushed my moving into it, and can push orange, pink, or lightblue.

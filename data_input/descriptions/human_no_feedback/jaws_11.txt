@@ -1,0 +1,1 @@
+you are the darkblue tiles. your job is to avoid every other tiles for about a minute. If you touch any other tile, the game is over

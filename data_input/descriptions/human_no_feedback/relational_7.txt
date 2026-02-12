@@ -1,0 +1,5 @@
+Use arrow keys to move
+Avoid white blocks they will often kill you
+Use blue blocks into the other blocks by pushing them
+Sometimes blocks will change colors when pushed or if you put another block in them
+Sometimes when they change colors you push them into the other blocks after changing color

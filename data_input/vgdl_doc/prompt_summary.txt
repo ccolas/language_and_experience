@@ -1,0 +1,153 @@
+# Game Message Rewriting Task
+
+You are helping to standardize player messages about a 2D video game. Your goal is to rewrite messages to be extremely explicit about object interactions and wining/losing conditions, making them easier for an AI to process.
+The AI will have to answer four types of questions:
+- What is the type of objects of [color1]?
+- What happens to objects of [color1] when they collide with objects of [color2]?
+- Does the player need to kill all objects of [color1] to win?
+- Does the player lose when all objects of [color1] die?
+
+### Your Input
+- List of known objects with their exact colors
+- Descriptions of their behaviors (if available)
+- Original player message
+
+### Rewriting Rules
+- "You" always refers to the darkblue object
+- Messages often contain information about *how to play the game* that you must translate into *information about the game rules* to help the AI.
+- Keep any information about object types and movement in the rewritten message.
+- Messages might use inexact colors, you need to use the exact colors present in the object descriptions:
+   - people might mix up light blue and blue, or dark green and green
+   - gold looks like yellow and pink looks like lightred -- look at object descriptions to use the exact color name
+   - pay attention to the exact colors of objects: people might say "green" if there is only a lightgreen object, but if there are two shades of green, they will probably make a distinction, calling the lighter one "light" or "lighter" or the darker one "dark" or "darker"
+   - there are four levels for each game. Sometimes the object hasn't been discovered yet (e.g. it appears in later levels), in this case just use the same color name used in the original message
+- When the message suggests to reach/get to/touch/collect/eat/gather an object to win or to get points, it means that you/darkblue can kill that object.
+- If you must kill these objects, it means you can kill these objects. Note that this object cannot kill you!! The rewritten message must mention both:
+   - that you can kill the object by touching it
+   - AND that you need to kill all objects of this color to win.
+- When the message suggests to "collect/eat [color1]":
+  - if [color1] is a resource object (see object descriptions), it means the agent can "collect [color1] as a resource"
+  - but if [color1] is not a resource (see object descriptions), the avatar collects it by killing it and you must say "you can kill [color1] objects by touching them"
+- Some objects might kill you when you touch them, unless you've collected enough resources. Collected resources are shown as a progress/life/energy bar on top of the player. In this case the rewritten message should mention:
+  - you will kill the object but this will take resource from you
+  - AND you can also be killed by the object unless you have sufficient resources
+- If you can collect resources (look that the object is indeed a resource in object descriptions), it's because it will protect you against another object that could kill you. Infer which one that is and answer accordingly.
+- When the message mentions to avoid/dodge/not touch objects, mentions objects that kill you, or objects that are your enemies/against you/obstacles it means that these objects kill you when you touch them.
+  - To stay safe, assume that all objects to avoid kill you and say that in your rewritten message
+  - UNLESS the player says "avoid them if you can", which indicates they might not kill you.
+- When the message tells you that you need to eliminate/destroy/kill/shoot/get rid of/touch certain objects, it means there is a killing interaction going on. You need to figure out who is the killer.
+  - sometimes it's you (darkblue)
+  - sometimes it's the object color you shoot (look at object descriptions to know which one)
+  - sometimes it's an object you can push onto the target (look at object descriptions to know which one), eg the message might say "move color1 onto color2 to pass / to get rid of it"
+  - if you don't know, assume it's yourself (darkblue)
+- When the message tells you to convert/transform/turn/switch an object color into another one, interpret it as a "transform" interaction, where the actor (you, or the object you shoot or push) transforms the target color into a new color.
+- Sometimes failing to protect objects causes you to lose. Players may say things like "destroy/attack/kill/shoot [color1] before they touch/kill/eliminate [color2]", or "protect/keep safe [color2]" which you should interpret both as:
+   - "I must protect [color2] or I will lose"
+   - AND "[color1] kills [color2] on contact" (if color1 is mentioned)
+- When the message mention [color1] touching [color2], it often means [color1] kills [color2]
+- Sometimes you need to infer which color is the result (eg "switch it back to original color") by looking at object descriptions.
+- "Avoid other blocks" should be interpreted as "each of the blocks not mentioned so far can kill you on contact", so look at the color mentioned earlier in the message and say each of them will kill you on contact explicitly.
+- Objects that can be pushed by other objects can be killers too!
+- Messages may imply the color of the objects they talk about, eg when they say "moving objects", or "all other objects", "all objects except [color1] and [color2]". Infer which colors the player is talking about by looking at the object descriptions and make these colors explicit in your rewritten message. The list of "other" should not include objects mentioned earlier in the message.
+- When the player says something like "press space to do X", they mean shoot or spawn. Look at the object description to find the object (spawn by you) doing the action.
+- Wining conditions are always about either surviving long enough, or killing all objects of a list of specific colors. When the message say "reach [color1]", it means "kill objects of [color1]"
+- Losing conditions are always about "wining before the timeout", or about protecting a list of objects of specific colors from death.
+- Two objects can only have one interaction, eg if you push an object, it cannot kill you. If the message indicates two different interactions for the same object pairs, it is ambiguous and the rewritten message should omit that information.
+- Besides you/darkblue, if [color1] objects shoots/fires other [color2] objects, it means it spawns these objects and you should mention [color1] objects spawn [color2]"
+- Note that the message could talk about objects you haven't encountered so far.
+- Nothing really happens with walls (darkgray). The background is light gray and nothing interacts with it.
+- If the message does not contain information, generate a similarly non-informative message so the AI can answer "I don't know" to all questions about the game
+- Messages are not exhaustive! Your rewritten message should contain all the information of the previous message, nothing less, nothing more.
+
+### Format Your Response
+
+Analysis:
+- List possible ambiguity, colors that are not in the list of exact colors, object referred to by something else than their color
+- Infer the right color of objects mentioned, the right interactions the message refers too, etc.
+- Identify the right actors for killing and transforming interaction, eg is it you? the object you shoot? an object you push? another object?
+- Resolve all the ambiguities
+
+Rewritten Message:
+Write a new message using standardized phrasing that explicitly states:
+- How to win, how to gain points
+- How to lose points, how to lose the game
+- List of objects you can shoot or you can push
+- Interactions between objects including killing and transforming interactions
+- Always use exact color names
+- Keep the rewritten message short, 2-6 sentences long max. Format it as a short paragraph.
+
+Do not write anything after the rewritten message! All thoughts and notes should appear in the analysis, before the rewritten message.
+
+### Example 1
+
+Known Objects:
+- You control the position of the darkblue square with arrow keys.
+- Orange objects chase you.
+- Lightgreen objects chase the nearest orange objects.
+- Purple, blue and red objects do not move.
+- Darkgray objects are walls.
+
+Original Message:
+"Goal is to get dark blue to purple - win by touching purple. Orange is your enemy. You can touch every other color. Green will help attack orange if you free it. Only goal is to reach purple. Avoid touching other colors if possible"
+
+Analysis:
+- Ambiguities to resolve:
+  - "Green" is mentioned but the exact color is lightgreen
+  - "Every other color" needs to be made explicit
+  - "If you free it" doesn't specify how to free lightgreen
+  - "Avoid touching other colors if possible" contradicts "You can touch every other color"
+- Color inferences:
+  - "Green" refers to lightgreen objects based on object descriptions
+  - "Every other color" refers to lightgreen, purple, blue, red, and darkgray based on the list
+- Interaction inferences:
+  - "Goal is to touch purple" means darkblue can kill purple
+  - "Orange is your enemy" means orange kills darkblue on contact
+  - "Green will help attack orange" means lightgreen can kill orange objects
+  - No mention of how to "free" lightgreen, so this information should be omitted as we can't make assumptions
+- Win condition:
+  - Kill all purple objects (based on "Only goal is to get dark blue to purple"), let's not forget to mention we can kill purple.
+Note: I've omitted the contradictory information about touching other colors since it's unclear which statement is correct. I've also omitted the "freeing" mechanic since there's no clear information about how it works. The message focuses only on the clear, explicit interactions and win conditions mentioned in the original message.
+
+Rewritten Message:
+"Orange objects kill you when they touch you. Lightgreen objects chase orange objects and can kill them when they touch them. You kill purple objects when you touch them. You win when you kill all purple objects. You lose if orange kills you."
+
+### Example 2
+
+Known Objects:
+- You control the position of the darkblue square with arrow keys.
+- You can shoot brown objects by pressing space bar.
+- Gold objects chase purple objects.
+- Green objects move along one direction.
+- Brown objects move along one direction.
+- Purple, blue and lightred objects do not move.
+- Darkgray objects are walls.
+
+Original Message:
+"Move the dark blue with arrow keys and shoot with space bar. To win, you must protect purple by shooting at yellow who turn them pink. You can switch any pink back by touching it. Avoid the other moving object. You lose if all purple turn pink.
+
+Analysis:
+- Ambiguities to resolve:
+  - "Yellow" refers to gold objects based on object descriptions
+  - "Pink" refers to lightred objects based on object descriptions
+  - "Shooting at yellow" needs to clarify that brown objects (which you shoot) are doing the killing
+  - "Switch any pink back" implies transforming lightred back to purple
+- Color inferences:
+  - "Yellow" refers to gold objects
+  - "Pink" refers to lightred objects
+  - "the other moving object" refers to the only moving object that was not mentioned earlier in the message: "green".
+- Interaction inferences:
+  - Gold objects transform purple objects into lightred objects when they touch
+  - Darkblue transforms lightred objects back to purple objects on contact
+  - Brown objects (which darkblue shoots) kill gold objects when they touch
+  - The message says to "avoid the other moving object" (green). This probably means it would kill you (darkblue) on contact.
+- Loss condition:
+  - Lose if all purple objects are transformed into lightred objects
+- Win condition:
+  - Not explicitly stated in original message, but implied to be preventing loss until timeout
+
+Rewritten Message:
+"You can shoot brown objects. Brown objects kill gold objects when they touch them. Gold objects transform purple objects into lightred objects when they touch them. You transform lightred objects into purple objects when you touch them. You die if you touch green. You lose if all purple objects are transformed into lightred objects. You win if you survive long enough."
+
+
+### Task
+

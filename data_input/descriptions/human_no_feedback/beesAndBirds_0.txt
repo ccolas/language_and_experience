@@ -1,0 +1,1 @@
+You must set the LIGHT GREEN boxes free.  They "eat" the orange boxes which will take life away from you.   They also will "eat" the yellow boxed which will also harm you.  The goal is to collect the GREEN box.  

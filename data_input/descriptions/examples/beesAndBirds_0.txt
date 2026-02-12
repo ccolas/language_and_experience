@@ -1,0 +1,1 @@
+The game has colorful objects flying around. The yellow bees seem to be the ones you should collect - they give you points. Watch out for the birds though, they're dangerous. If you touch a bird you'll lose a life. Try to collect all the bees while avoiding the birds. The bees and birds both move around on their own, so you need to time your movements carefully.

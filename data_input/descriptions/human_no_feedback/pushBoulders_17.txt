@@ -1,0 +1,5 @@
+Game one, Use your arrow keys to move the dark blue square into the light blue squares, but avoid the pink and orange. After you take out the light blue , take out the yellow, and you won.
+
+Game two, Use your arrow keys to move the dark blue square next to a green square, then using the blue square to take out the orange squares. You cannot touch the orange squares directly with dark blue, but you can take out the light blue directly. After you have taken out the light blue, and the orange with the green, take out the yellow , then you have won.
+
+Use your arrow keys to move the dark blue square next to the green. Use the blue to push the green into the orange. Don't touch the orange directly with the dark blue. You can touch the light blue directly. 

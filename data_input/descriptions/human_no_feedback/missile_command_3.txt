@@ -1,0 +1,1 @@
+You must destroy the red and gold squares before they reach the green squares. You will have to move quickly with the up, down, left and right keys. You will use the space bar when close to the  red and gold squares to destroy them. 

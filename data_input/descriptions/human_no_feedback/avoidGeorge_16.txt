@@ -1,0 +1,4 @@
+Running into lightblue makes you lose
+Quickly run into all the purple boxes and press the spacebar to turn them into green.
+If the lightblue box turns all of the boxes back into purple then you will lose.
+Turn all boxes into green and then try and turn lightblue into green.

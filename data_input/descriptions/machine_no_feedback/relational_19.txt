@@ -1,0 +1,1 @@
+Control the darkblue square with arrow keys. To win, eliminate all blue by pushing them onto yellow - you'll even get points when they kill each other. Be careful, as white objects will kill you on contact. You can transform red to yellow by touching them, and transform pink to orange by touching them, then push orange onto purple to get more yellow.

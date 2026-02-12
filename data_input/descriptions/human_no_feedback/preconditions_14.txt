@@ -1,0 +1,3 @@
+use arrow keys to move blue
+pick white before any colour
+pick green then yellow

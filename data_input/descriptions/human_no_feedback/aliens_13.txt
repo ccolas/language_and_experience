@@ -1,0 +1,4 @@
+use arrow keys to move and space bar to eliminate
+avoid being hit by red it will reduce your life
+seek cover with red when red is coming at you
+eliminate pink by pressing on the spacebar

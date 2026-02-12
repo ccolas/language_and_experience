@@ -1,0 +1,1 @@
+Control the darkblue with arrow keys.Touch green to kill them and earn points.Avoid the light orange, dark brown,red and gold as much as possible as it will kill you.

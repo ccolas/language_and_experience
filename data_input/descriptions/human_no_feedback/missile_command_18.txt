@@ -1,0 +1,1 @@
+The main goal is to catch all the top blocks by clicking the space bar while on top of them before they can make contact with the blocks on the bottom. The blocks will disappear if they make contact and to win you must have at least one remaining block on bottom. These games go very fast so focus on slower falling blocks.

@@ -1,0 +1,1 @@
+Use the arrows to move your square. You can telepot between the gold and blue squares. Use teleporting to get into the boxes with the lightgreen square. Win the game by putting your square over the lightgreen square in each level. Avoid the moving boxes or your will die.

@@ -1,0 +1,1 @@
+You are darkblue, use arrow keys to move and touch lightgreen to win. Darkgreen, lightred, pink, and brown are dangerous. Touch lightblue or blue to be teleported to gold or lightorange.

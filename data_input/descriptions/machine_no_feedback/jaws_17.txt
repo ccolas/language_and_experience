@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue. Your goal is to survive as long as possible. Be careful: orange, brown, and pink objects will kill you on contact, with orange actively chasing you. Stay away from these dangers, and try to find a safe path through the stationary darkgray, purple, and green objects.

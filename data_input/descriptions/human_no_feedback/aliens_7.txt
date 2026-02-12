@@ -1,0 +1,1 @@
+Use the left and right arrows to move your blue square sideways. Press the spacebar to shoot upwards and eliminate the pink squares before they get to you. Make sure to avoid the red squares that are falling down or you will die. Eliminate all the pink squares to win. The white squares will disappear when hit by you or the red squares.

@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue. To win, eliminate all green by touching them, earning points for each kill. Be careful: you'll die if you touch yellow or orange, but you can use lightgreen to your advantage - it can kill both yellow and orange. Touch red and purple to kill them, but they're not your main objective.

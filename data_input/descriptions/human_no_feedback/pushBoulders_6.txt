@@ -1,0 +1,1 @@
+Move around with arrow keys towards the green figures to push them into other color figures. Avoid running into figures with the space bar that are not green. You will lose running to those other colors. 

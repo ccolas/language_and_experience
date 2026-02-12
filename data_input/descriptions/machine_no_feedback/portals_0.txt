@@ -1,0 +1,1 @@
+Move your darkblue with arrow keys and teleport using lightblue (to gold) or blue (to lightorange). To win, kill all lightgreen by touching them, earning points. Watch out - darkgreen, pink, and lightred will kill you on contact, so avoid them. Brown objects move randomly, but they won't hurt you, and you can use them as a distraction to get to lightgreen.

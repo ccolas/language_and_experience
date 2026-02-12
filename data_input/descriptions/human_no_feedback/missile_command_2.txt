@@ -1,0 +1,1 @@
+move with arrow keys. red and gold are the enemies. Keep green alive is the goal. use the space bar to kill the red and gold. bonus is given to any green left alive at the end. if all green are dead you lose the life.

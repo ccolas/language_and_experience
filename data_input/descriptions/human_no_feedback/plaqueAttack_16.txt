@@ -1,0 +1,1 @@
+In this game you move the dark blue square with the arrow keys. The goal is to "clear" the stationary blocksthat are at the top and bottom of each level. Once the blocks that are moving change the color of a stationary block you need to move over that block with yours to clear the color so another moving block can clear at that station. 

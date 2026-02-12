@@ -1,0 +1,1 @@
+Your goal is to get to the green box, avoiding all the yellow boxes. The light green box can eat through orange, and you can eat through dark blue. The best strategy is to use the light green box as a teammate and move around them 

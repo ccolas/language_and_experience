@@ -1,0 +1,143 @@
+
+#### Task Description
+
+Read information about a video game and write a message to help a first-time player solve the game. Each message should be 2-5 sentences long and focus on information that would be costly or difficult for players to learn through trial and error.
+
+#### Instructions and Tips
+
+Message content:
+- Start your message with basic controls/movement
+- State the main win condition early so players know their goal
+- Clearly identify lethal hazards to prevent unfair deaths
+- If points exist, explain how to gain/lose them
+- If there are objects to protect (loss conditions), emphasize their importance
+- If certain game elements are safe, explicitly state this
+- End with helpful but non-critical mechanics
+- Focus on information that would be frustrating to learn through trial and error
+- Prevent player death!
+
+Message format:
+- Keep sentences short but pack them with vital information
+- Use natural language and contractions to keep it readable under pressure
+- Make sure it's always clear what each pronoun refers to (e.g. when using "them" to refer to objects of a certain color)
+- Do not attribute semantics to the objects, refer to them by their color
+- Aim for 2-5 sentences total, be friendly, clear and concise
+- Be exhaustive, don't forget any of the important elements that could help the next player win faster or avoid death!
+
+Extra tips:
+- Only advise the player to execute a strategy (e.g. kill object A) if you're sure it can execute it (e.g. the avatar can kill A)
+- Only advise the player to push objects if the rules say the object can be pushed by the player
+- Only ask the player to protect an object if its death would cause the player to lose
+- Describe all transformations, they are probably key for the player to find the right strategy
+- Be explicit about what would make the player lose
+
+
+#### Examples
+
+##### Game 1
+
+Who you are and how you move:
+- You control the darkblue square with arrow keys.
+How you win and lose:
+- You get points when pink objects transform blue objects into purple objects.
+- You lose points when darkred objects kill purple objects.
+- You win the game when all blue and orange objects are dead.
+- You lose if all purple and lightred objects die.
+What you can do:
+- You can shoot pink squares by pressing space bar.
+- You can kill orange objects by shooting pink objects at them.
+- You can transform blue objects into purple objects by shooting pink objects at them.
+What can kill you:
+- Orange objects will kill you if you touch them.
+Other possible interactions:
+- You can push lightred objects.
+- Darkred objects can kill purple objects by touching them.
+- Darkred objects can kill lightred objects by touching them.
+Other objects:
+- Pink objects move along one direction.
+- Darkred objects chase the nearest lightred object.
+- Orange objects move along one direction.
+- Purple and blue objects do not move.
+
+Message:
+Use arrow keys to move darkblue and spacebar to shoot pink. To win, you must eliminate all blue and orange - shoot pink at orange to kill them, and shoot pink at blue to transform them into purple. Watch out: you'll lose if all purple and lightred die, so protect them from darkred which can kill both. You gain points when pink transforms blue into purple, but lose points when darkred kills purple. Avoid touching orange as it will kill you, but you can push lightred around to help protect purple.
+
+
+##### Game 2
+
+Who you are and how you move:
+- You control the darkblue square with arrow keys.
+How you win and lose:
+- You get points when you kill green objects.
+- You win the game when all blue and green objects are dead.
+- You lose if all lightgray objects die.
+What you can do:
+- You can kill blue objects by pushing them onto lightgray objects.
+- You can kill green and pink objects by touching them.
+What can kill you:
+- Nothing can kill you.
+Other possible interactions:
+- No other interaction.
+Other objects:
+- Pink objects move along one direction.
+- Lightgray and green objects do not move.
+
+Message:
+Control the darkblue with arrow keys. To win, eliminate all blue and green while keeping lightgrey alive. Touch green to kill them and earn points, but you'll need to push blue onto lightgrey to eliminate them. You lose if all lightgrey die, so be careful when pushing blue. Nothing can kill you, so take your time planning moves.
+
+
+##### Game 3
+
+Who you are and how you move:
+- You control the darkblue square with arrow keys.
+How you win and lose:
+- You lose points when darkred objects transform yellow objects into black objects.
+- You win the game when all orange and darkred objects are dead.
+- You lose if all yellow objects die.
+What you can do:
+- You can shoot lightred squares by pressing space bar.
+- You can kill darkred objects by shooting lightred objects at them.
+- You can kill orange objects by touching them.
+What can kill you:
+- Nothing can kill you.
+Other possible interactions:
+- You can push yellow objects.
+- Darkred objects can transform yellow objects into black objects.
+Other objects:
+- Darkred objects chase the nearest yellow object.
+- Lightred objects move along one direction.
+- Orange objects do not move.
+
+Message:
+Move with arrow keys and shoot with spacebar. To win, you must eliminate all orange and darkred - touch orange to kill them, and shoot lightred at darkred to destroy them. You'll lose if all yellow die, since darkred can transform yellow into black, so protect your yellow! Push yellow to safety when needed, and don't worry about dying since nothing can kill you.
+
+
+##### Game 4
+
+Who you are and how you move:
+- You control the darkblue square with arrow keys.
+How you win and lose:
+- You win the game when all gold objects are dead.
+- You lose if you die.
+What you can do:
+- You can teleport from darkgreen objects to orange objects.
+- You can kill orange objects by touching them.
+What can kill you:
+- Red and green objects will kill you if you touch them.
+Other possible interactions:
+- No other interaction.
+Other objects:
+- Red objects move along one direction.
+- Green objects move along one direction.
+- Orange, gold and darkgreen objects do not move.
+
+Message:
+Use arrow keys to move your darkblue. Your goal is to eliminate all gold by touching them. Watch out - red and green will kill you on contact! You can use darkgreen to teleport to orange, and touching orange will destroy them. If you die, you lose the game.
+
+
+#### Task
+
+Now it's your turn, please write a message for the following game:
+
+##### Game 5
+

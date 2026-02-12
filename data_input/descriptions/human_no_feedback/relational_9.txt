@@ -1,0 +1,9 @@
+Dark Blue Square(You) moves(Arrows) blue squares across the map into yellow squares(Goal).
+
+You can move onto a red square, and it will become a yellow square.
+
+You can push orange squares into purple squares to make them yellow squares.
+
+If you step onto a white square you will lose. You are also on a 30 second timer, so you will need to move quickly.
+
+You will need to interact with the purple squares, and the pink squares so they become yellow.

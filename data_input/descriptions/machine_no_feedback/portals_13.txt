@@ -1,0 +1,1 @@
+Control the darkblue square with arrow keys. To win, eliminate all lightgreen by touching them - you'll earn points for each one. Be careful, as darkgreen, pink, and lightred objects will kill you on contact. You can teleport using lightblue to gold and blue to lightorange to navigate safely. Your goal is to clear all lightgreen without dying, so plan your moves carefully.

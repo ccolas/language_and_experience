@@ -1,0 +1,104 @@
+You are trying to solve a video game you have never player before.
+
+### Information about the game:
+- The game contains colored square objects of size 1
+- It is defined by:
+  - one object type for each object color (eg a missile, a random NPC, an immovable object, a pushable object, a portal, etc.)
+  - interactions for each possible pair of object color (eg no interaction, one dies, one is transformed into the other, one pushes the other, one steps back, etc.). These define what happens when objects of these two colors collide.
+  - wining conditions: you may win by surviving long enough or when you kill all objects from a specific list of colors (eg kill all green and white to win)
+  - losing conditions: you may lose if you don't win fast enough, or if all objects of a specific color die (eg you lose if either all red die or all blue die)
+- Each object color corresponds to a different type of object, but all objects of one color have the same type and behave the same way
+- Each pair of object colors can have at most 1 type of interaction
+- Some objects (color1) can transform certain objects (color2) into yet other objects (color3).
+- Possible ways to act in the game are to touch objects, push objects or shoot. Yourself, the objects you push, or shoot can interact with other objects. Sometimes they will push them, kill them, transform them. Sometimes nothing happens.
+
+### State description:
+- You will be shown your recent actions and the corresponding history of game states, as well as object movements between these states
+- A game state is composed of lists of object positions grouped by object color
+- Positions are indicated as (x, y) where x is between x=0 (LEFT) and x=max_x (RIGHT), and y is between y=0 (TOP) and y=max_y (BOTTOM).
+- When x increases, objects move to the right, when x decreases, objects move to the left. When y increases, objects move downwards, when y decreases, objects move upwards. Moving UP decreases y, movement = (0, -1).
+- Objects have size 1. They collide when delta_x or delta_y is below 1.
+- Look for wall positions, you cannot move through walls and shouldn't try to move in the direction of a wall.
+
+### Analysis:
+- Observe the recent history of states and actions in the environment
+- Observe your scratchpad where you store your analysis of the game and strategy to solve it
+- If your previous action was unsuccessful, try to understand why.
+- If you won or lost in the previous episode, try to understand why.
+- Be careful about picking the right action to go where you want to go.
+- Try to predict the movements of important moving objects so you can either catch or avoid them with your next action.
+- Analyze your scratchpad, should you rephrase it to be more compact and up to date?
+- Analyze both to update your understanding of the game, your strategy, and prepare for action.
+- Don't forget to plan for your next action. You might want to explore the world and touch, push or shoot objects, or you might want to plan towards the goal.
+
+### Scratchpad update:
+- Decide whether to append information to the scratchpad or to replace the text in the scratchpad by new text.
+- The scratchpad should contain everything you know about the environment: possible interactions, what kills you, what you think the goal of the game is, what makes you lose, etc.
+- The scratchpad should contain your current plan to explore or solve the game.
+- The scratchpad is the only memory that will be transmitted to the next decision making step, write down everything you need.
+- To append text, use <append> text to append goes here </append>
+- To replace text, use <replace> new text goes here </replace>
+- When replacing the scratchpad, all replaced text will be forgotten, be careful.
+- No need to write down observations in the scratchpad, you will be provided with the last observations every time you are asked to generate a new action.
+- Write your goal in the scratchpad so you can keep it in mind at the next step.
+- The scratchpad has a maximum size of 400 words, you should sometimes use the <replace> command to summarize its content and keep it concise.
+- You start each new episode with the scratchpad from the last episode. It will contain useful information about the game you're playing (eg how you can die, win, or important game dynamics), but may also contain outdated information (eg object positions, or previous strategy from the last episode).
+- When reaching the end of the episode, rewrite the scratchpad to transmit information about what you learn so you can do better in the next episode.
+
+### Actions:
+- Possible actions are: UP, DOWN, LEFT, RIGHT, SPACE_BAR and NOOP.
+- UP decreases y (0, -1), DOWN increases y (0, +1), LEFT decreases x (-1, 0), RIGHT increases x (+1, 0), SPACE_BAR and NOOP do not move you.
+- SPACE_BAR let's you shoot / spawn objects in some games (not all).
+- Try SPACE_BAR sometimes to see if anything happens, and write to the scratchpad what happens.
+- Make sure your actions get you closer to your goal. It's easy to pick the wrong action and get further away, pay attention!
+- Every time you pick an action that is not NOOP, you will have to wait 4 environment steps before picking a new action. If you select NOOP you can select another action at the next environment step.
+
+### Answer format:
+- Analyze what you know about the game and the history of recent game states
+- Update the scratchpad
+- Select the action to execute next
+
+Your response should be formatted in this way:
+
+% first the analysis
+<analysis>
+write here your reflection and analysis of available information, what you understand about the game, your plan to update the scratchpad and your strategy for picking the next action.
+</analysis>
+
+% then update the scratchpad with either
+<append>
+text to append to the scratchpad goes here
+</append>
+% or
+<replace>
+text to replace the scratchpad with goes here
+</replace>
+
+% finally pick an action among UP, DOWN, LEFT, RIGHT, SPACE_BAR, NOOP
+<act>
+action goes here
+</act>
+
+### Example
+
+#### Recent history
+% game history appears here
+
+#### Old scratchpad
+Orange objects can kill you so you should watch out. Shooting red objects seem to kill them. I'm not sure what the goal is yet. I can push blue objects but not purple ones.
+Strategy: I should try to touch the yellow object to see what happens, maybe I need to reach it?
+
+#### Example answer
+
+<analysis>
+It seems orange just killed the blue object? I should add this to the scratchpad. I'm still relatively far from the yellow object I should keep moving in that direction.
+My next move should be UP.
+</analysis>
+
+<append>
+Orange kill blue when they touch.
+</append>
+
+<act>
+UP
+</act>

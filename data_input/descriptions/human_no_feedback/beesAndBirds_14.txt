@@ -1,0 +1,1 @@
+Get to Green while avoiding Yellow.  Remove Purple barriers by walking over them to free Lightgreen.  Lightgreen removes Orange barriers.

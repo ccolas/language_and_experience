@@ -1,0 +1,1 @@
+Your objective to win the game is to get the gold square. You have to move the green square over the orange square to be able to pass through areas. You can touch the light blue square without losing a life. 

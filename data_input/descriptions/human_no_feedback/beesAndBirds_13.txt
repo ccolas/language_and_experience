@@ -1,0 +1,4 @@
+use arrow keys to move
+break out light green to pave a way for you
+avoid being touched by yellow
+get to deep green to win the level

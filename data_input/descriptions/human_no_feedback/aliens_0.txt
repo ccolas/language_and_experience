@@ -1,0 +1,1 @@
+This is like the old game Asteroids.  Move the blue square left and right with the arrow keys.  Use the spacebar to shoot at the pink squares, avoiding the red squares that they send down.  

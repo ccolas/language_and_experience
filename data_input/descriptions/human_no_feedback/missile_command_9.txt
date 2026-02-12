@@ -1,0 +1,9 @@
+Dark Blue Square(You) moves(using arrows) around the map.
+
+You create a Pink Square(Spacebar) in the direction you last moved, to capture Red and Yellow squares that are moving towards the green squares.
+
+When green squares(resource) touch a square, they vanish, and you lose if they all disappear.
+
+Move around the map, and rapidly press the space bar and start moving through red and yellow squares.
+
+The game ends when all the red and yellow squares are gone(Victory). 

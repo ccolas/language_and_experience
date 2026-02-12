@@ -1,0 +1,1 @@
+You can win the game by avoiding getting caught by the orange figure when it chases you. You can lose the game by getting hit by the orange figure, or any other colored figure. Spacebar does nothing, just use arrow keys to move away. 

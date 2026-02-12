@@ -1,0 +1,1 @@
+Use left and right arrow keys to move your darkblue square. To win, eliminate all orange, pink, and brown - shoot blue at pink to kill them. Be careful, as pink and red will kill you on contact, so keep a safe distance. You'll also lose points if pink or red kill you. You gain points when blue kills pink, so use this to your advantage.

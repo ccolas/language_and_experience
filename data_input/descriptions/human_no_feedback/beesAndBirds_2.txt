@@ -1,0 +1,1 @@
+Move the blue box with the arrow keys. The yellow boxes will kill you and they move. The goal is to get to the green without touching the yellow. If you pick up red on way you get bonus. Freeing the light green by eating the purple will let the green eat the orange so you can move through those. Yellow kills you green wins the level.

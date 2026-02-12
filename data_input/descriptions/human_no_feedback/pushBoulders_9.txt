@@ -1,0 +1,1 @@
+Your objective is to get past the maze. You win the game by going through to the end. You can use the green box to shove into the way to clear the path. You lose points by hitting the green box.

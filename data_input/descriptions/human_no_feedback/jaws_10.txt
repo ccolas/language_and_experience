@@ -1,0 +1,1 @@
+I believe that you have to move your blue square with the arrows to try and get to the other end of the board without touching the brown and orange squares. I tried several times but I was unable to win the level. Even when I arrived at the long blue rectangle. 

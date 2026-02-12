@@ -1,0 +1,24 @@
+# Core dependencies
+numpy
+scipy
+torch
+transformers
+
+# LLM inference
+vllm
+
+# Parallel processing (install with conda: conda install -c conda-forge mpi4py openmpi)
+mpi4py
+
+# Game environment
+pygame
+gym==0.26.2
+
+# Data processing and visualization
+matplotlib
+pandas
+scikit-learn
+Pillow
+
+# Video generation (optional, for demos)
+opencv-python

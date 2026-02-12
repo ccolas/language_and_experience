@@ -1,0 +1,1 @@
+Move around Darkblue with arrow keys. The objective is to push boxes into other boxes of different colors to cancel them out, in the correct order. You will see Lightblue, Orange, Yellow, pink and Red. If you run into red, it will turn into Yellow. You win by canceling out all of the colors. Watch out: Running into white will result in a loss of a life. 

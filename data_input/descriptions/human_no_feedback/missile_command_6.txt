@@ -1,0 +1,1 @@
+Move your blue square using he arrows. Press the spacebar over the red or gold squares to eliminate them before they eliminate all of the green squares.

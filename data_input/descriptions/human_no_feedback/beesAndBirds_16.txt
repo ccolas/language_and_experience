@@ -1,0 +1,1 @@
+Use the arrow keys only. Avoid all yellow squares. Remove purple squares to activate lightgreen squares, which will drop down and remove orange squares. Game is won when green square is covered. No need to remove any squares on last level.

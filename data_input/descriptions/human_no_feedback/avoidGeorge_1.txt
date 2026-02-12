@@ -1,0 +1,1 @@
+You must survive as long as possible without all the green boxes turning into purple, and avoiding being touched by a blue box that is going around turning green into purple. You can turn the purple boxes back to green by shooting them with the space bar. You loose if all boxes turn purple, or you're touched by the light blue box 

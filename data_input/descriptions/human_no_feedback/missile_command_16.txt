@@ -1,0 +1,1 @@
+Move blue square by pressing your arrow keys. Stop yellow and red squares from devouring green squares by moving next to yellow and red squares to and pressing spacebar to kill them. Game is lost when all green squares have been eaten by yellow and red squares.

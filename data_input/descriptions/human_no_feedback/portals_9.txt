@@ -1,0 +1,9 @@
+The goal is to have the Dark Blue Square(You) move(using arrows) across the map to touch the Blue Square(Objective). 
+
+Light Blue Squares(Friendly) can be touched to teleport you to a different point on the map.
+
+All other square colors are deadly and will kill you, they also move in a set pattern. 
+
+There is no timer, so take your time to look for a safe pattern to move.
+
+Level 3 and Level 4 start you in unsafe spots, and the light blue square will put you in danger, so be ready to move when you start.

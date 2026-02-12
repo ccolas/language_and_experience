@@ -1,0 +1,1 @@
+Control the darkblue square with arrow keys. To win, eliminate all green by touching them, earning you points. Be careful - yellow and orange will kill you on contact, so avoid them. You can also kill red and purple, but your main goal is to take out all the green. Lightgreen objects can help by killing yellow and orange, so try to use them to your advantage and stay safe.

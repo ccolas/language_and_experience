@@ -1,0 +1,1 @@
+It is important to not touch the green objects. You need to collect the white objects by moving over them. The white objects help you move through the green ones. You need to get through the green squares to get to thee gold object to win the game. 

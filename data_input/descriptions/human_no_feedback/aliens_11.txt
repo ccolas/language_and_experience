@@ -1,0 +1,1 @@
+use spacebar to shoot the orange tiles before they destroy the house thats protecting you

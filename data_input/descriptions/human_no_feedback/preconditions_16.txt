@@ -1,0 +1,1 @@
+You use the arrow keys to control the dark blue block. Your goal is to reach each white block to build up a shield. One white block shield will allow you to eliminate a green block. Your ultimate goal is to reach the gold block on each level.

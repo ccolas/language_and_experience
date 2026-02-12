@@ -1,0 +1,1 @@
+Use arrow keys to move DarkBlue around the screen. Use Spacebar to grab and remove all of the colors that are not green. Red and yellow will both go after the green remote each other if they touch. Save green by removing Red and Yellow with spacebar before they get to green. Watch out: Yellow moves much faster than red so go for that first. 

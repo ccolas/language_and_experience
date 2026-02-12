@@ -1,0 +1,1 @@
+Control the darkblue with arrow keys. Watch out - red and orange will kill you on contact! You can use purple to teleport to light green and earn points. To win the game, touch green with darkblue.

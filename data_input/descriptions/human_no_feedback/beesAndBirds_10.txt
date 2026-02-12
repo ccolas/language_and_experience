@@ -1,0 +1,1 @@
+This game is a maze that you try and get through. You move your dark blue square with the arrow keys and remove the purple squares with the space bar. Use the space bar to go over the green square with your darkblue square and it will erase things for you quickly. Do not run into the yellow or red squares. You will lose the level. 

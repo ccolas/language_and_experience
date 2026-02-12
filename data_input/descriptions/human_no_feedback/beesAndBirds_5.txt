@@ -1,0 +1,1 @@
+The goal is to move the dark blue square over the green square. Touching a orange square loses the game. The light green square can be used to remove orange squares. touching the purple squares removes them. Move with the arrow keys.

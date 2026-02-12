@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square. To win, eliminate all red and gold objects by shooting pink squares at them using spacebar. Protect green objects, as they'll die if they touch red or gold, and you'll lose if all green die. You'll gain points for killing red and gold with pink, but lose points if green objects kill each other with red or gold.

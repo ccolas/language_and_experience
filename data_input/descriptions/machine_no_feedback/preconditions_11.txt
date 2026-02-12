@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square. To win, eliminate all gold by touching them, earning points in the process. Be cautious of green objects - touching them will kill you unless you have enough white resources to protect yourself. You can collect white resources to defend against green, and you can even kill green objects if you have a resource to spare.

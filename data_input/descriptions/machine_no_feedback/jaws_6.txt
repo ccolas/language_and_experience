@@ -1,0 +1,1 @@
+Use arrow keys to move the darkblue square. Your goal is to survive as long as possible. Be careful: orange, brown, and pink objects will kill you if you touch them, and orange will actively chase you. Try to avoid them to stay alive - the longer you survive, the better.

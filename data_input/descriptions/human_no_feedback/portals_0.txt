@@ -1,0 +1,1 @@
+You must control your blue box to the light blue boxes to teleport.  You have to collect the light green boxes. Avoid the red and pink boxes or you lose a life.  

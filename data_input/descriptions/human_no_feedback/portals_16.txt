@@ -1,0 +1,1 @@
+The goal of this game is to use your arrow keys to move around the level and reach the light green square. The blue and light blue squares act as portals and you should avoid any blocks that are moving as they will make you lose a life.

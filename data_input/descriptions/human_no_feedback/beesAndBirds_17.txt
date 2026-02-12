@@ -1,0 +1,7 @@
+In the first game, use your arrow keys to move the dark blue square all the way down to take out the red and green square. You have to avvoid the yellow squares, or you will die.
+
+In the second game, use your arrow keys to the right to take out the medium blue squares, then you have to get to the bottom green square while avoiding the yellow squares.
+
+In the third game, use your arrow keys to move the dark blue square out of the hidden middle portion. Take out all the medium blue squares up top, then move down to the bottom and merge with green.
+
+In the fourth game, use your arrow keys to take out the top right medium blue portion, then run over to the left side to take out the medium blue portion there. Do your best to avoid approaching yellow. Next, move straight down as fast as you can to the green at the very bottom. Be careful not to get eaten by the yellow, or you will die.

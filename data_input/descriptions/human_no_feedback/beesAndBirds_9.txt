@@ -1,0 +1,2 @@
+You'll start with 15 lives and have 4 levels to beat in each game. Use the arrow keys to move and the spacebar to interact. Your goal is to win each level by completing specific objectives, like removing certain colored blocks or reaching a specific point. Be careful, as failing a level will cost you a life. 
+Game 3:Move your dark blue square to the purple squares to release the light green squares. The light green squares will remove the orange squares. Avoid the yellow squares at all costs, as they’re deadly. Be quick and agile, as the squares are constantly moving.

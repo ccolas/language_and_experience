@@ -1,0 +1,1 @@
+Reach yellow to win. Most other colors are dangerous, but green is safe. Push green into orange to destroy the orange if necessary.

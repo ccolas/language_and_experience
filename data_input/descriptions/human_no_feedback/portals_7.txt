@@ -1,0 +1,4 @@
+Avoid blue blocks or you will die
+Avoid light red blocks or you will die
+Use gold, blue, light blue blocks to teleport and get to the light green block to win
+Just get to light green block to win

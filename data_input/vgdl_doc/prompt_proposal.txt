@@ -1,0 +1,268 @@
+# Game Rules Analysis Task
+
+You are analyzing messages written by video game players to help you play a game for the first time. These games feature colored objects interacting in a 2D space, where players control a darkblue object. The messages describe controls, scoring systems, win/loss conditions, hazards, core mechanics, and give you tips to help you win the game.
+
+
+### Your Task
+You will be asked to answer four types of questions:
+- What is the type of objects of [color1]?
+- What happens to objects of [color1] when they collide with objects of [color2]?
+- Does the player need to kill all objects of [color1] to win?
+- Does the player lose when all objects of [color1] die?
+
+Answer questions by looking for explicit statements in the message about:
+- How objects move and how they behave, eg can you use them as a portal, can you push them, do they chase other objects, etc.
+- Objects killing other objects
+- Objects transforming into other objects
+- Win conditions involving killing objects
+- Loss conditions involving object death
+
+
+### Rules for Answering
+- Only use information explicitly stated in the message
+- You are the darkblue object.
+- Do not make assumptions about interactions not mentioned
+- Pick the "I don't know" answer if the corresponding information is ambiguous, contradicting, or absent
+- Pay attention to interaction direction - if A kills B, it doesn't mean B kills A
+- Each question comes with a fixed set of possible answer. You must pick one of the answer. If the correct answer is not in the list, pick the "I don't know" answer.
+- If the way to win is to kill some object, then having all these objects disappear/die does NOT cause you to lose
+- If you need to "protect [color1] objects" or "kill [color2] objects before they kill / transform [color1] objects", you must answer:
+  - "You lose if all [color1] objects die or disappear", note that transformations kill the transformed objects.
+- If you need to reach / touch / kill by touching [color1] objects to win, this means you can kill color1 objects. You MUST answer:
+  - "[color1] objects die when they collide with darkblue objects".
+- If the message says you can "collect [color1]":
+  - either [color1] is a resource, and you must answer that "you can collect [color1] resources"
+  - OR [color1] is not a resource, and you must answer that "you can kill [color1] objects"
+- If the message says you can destroy/kill/eliminate [color1] objects if you have enough [color2] resources, the two following statements are true:
+  - "[color1] objects die when they collide with darkblue objects but also take a [color2] resource from them'
+  - AND "darkblue objects die if they don't have enough resources when they collide with [color1] objects"
+- Objects that kill you when you lack resources also die when they touch you, and take one resource from you.
+  - "[color1] objects die when they collide with darkblue objects but also take a [color2] resource from them"
+- When [color1] objects take away some resource / your health when you touch them, they also die:
+  - "[color1] objects die when they collide with darkblue objects but also take a [color2] resource from them'
+- Use the ... after "Reasoning:" to reason about the game before generating your answer.
+
+
+### Example Game 1
+
+Message from the player:
+"Orange objects kill you when they touch you. You kill purple objects when you touch them. Lightgreen objects chase orange objects and can kill them when they touch them. You win when you kill all purple objects. You lose if orange kills you."
+
+--
+
+What happens to darkblue objects when they collide with orange objects?
+1) nothing happens to darkblue objects when they collide with orange objects
+2) darkblue objects die when they collide with orange objects
+3) darkblue objects get transformed when they collide with orange objects
+4) darkblue objects steal resource from orange objects when both collide
+5) darkblue objects die if they don't have enough resources when they collide with orange objects
+6) I don't know / something else
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+2) darkblue objects die when they collide with orange objects
+
+--
+
+What happens to orange objects when they collide with darkblue objects?
+1) nothing happens to orange objects when they collide with darkblue objects
+2) orange objects die when they collide with darkblue objects
+3) orange objects get transformed when they collide with darkblue objects
+4) orange objects steal resource from darkblue objects when both collide
+5) orange objects die if they don't have enough resources when they collide with darkblue objects
+6) I don't know / something else
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+6) I don't know / something else
+
+Note: orange kill darkblue (the player), but we don't know what happens to orange when they touch (maybe nothing)
+
+--
+
+How do orange objects behave?
+1) orange objects cannot move
+2) orange objects do not move and disappear after a certain time
+3) orange objects regularly spawn/generate other objects
+4) orange objects can be pushed
+5) orange objects move along one axis
+6) orange objects move along one axis and regularly spawn/generate objects
+7) orange objects chase or flee another object
+8) orange objects move randomly
+9) orange objects are portals
+10) I don't know
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+10) I don't know
+
+--
+
+How do lightgreen objects behave?
+1) lightgreen objects cannot move
+2) lightgreen objects do not move and disappear after a certain time
+3) lightgreen objects regularly spawn/generate other objects
+4) lightgreen objects can be pushed
+5) lightgreen objects move along one axis
+6) lightgreen objects move along one axis and regularly spawn/generate objects
+7) lightgreen objects chase or flee another object
+8) lightgreen objects move randomly
+9) lightgreen objects are portals
+10) I don't know
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+7) lightgreen objects chase or flee another object
+
+--
+
+Do you need to kill purple objects to win?
+1) To win you need to reach/touch purple objects
+2) To win you need to kill all purple objects
+3) To win you don't need to kill all purple objects
+4) To win I don't know if you need to kill or reach/touch all purple objects
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+2) To win you need to kill all purple objects
+
+--
+
+Do you need to kill orange objects to win?
+1) To win you need to reach/touch orange objects
+2) To win you need to kill all orange objects
+3) To win you don't need to kill all orange objects
+4) To win I don't know if you need to kill or reach/touch all orange objects
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+4) To win I don't know if you need to kill or reach/touch all orange objects
+
+--
+
+Do you lose if orange objects die?
+1) You lose if all orange objects die or disappear
+2) You don't lose if all orange objects die or disappear
+3) I don't know if you would lose if all orange objects die or disappear
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+2) You don't lose if all orange objects die or disappear
+
+
+### Example Game 2
+
+Message from the player:
+"You can shoot brown objects. Brown objects kill gold objects when they touch them. Gold objects transform purple objects into lightred objects when they touch them. You transform lightred objects into purple objects when you touch them. You lose if all purple objects are transformed into lightred objects. You win if you survive long enough."
+
+--
+
+What happens to gold objects when they collide with brown objects?
+1) nothing happens to gold objects when they collide with brown objects
+2) gold objects die when they collide with brown objects
+3) gold objects get transformed when they collide with brown objects
+4) gold objects steal resource from brown objects when both collide
+5) gold objects die if they don't have enough resources when they collide with brown objects
+6) I don't know / something else
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+2) gold objects die when they collide with brown objects
+
+--
+
+What happens to purple objects when they collide with gold objects?
+1) nothing happens to purple objects when they collide with gold objects
+2) purple objects die when they collide with gold objects
+3) purple objects get transformed when they collide with gold objects
+4) purple objects steal resource from gold objects when both collide
+5) purple objects die if they don't have enough resources when they collide with gold objects
+6) I don't know / something else
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+3) purple objects get transformed when they collide with gold objects
+
+--
+
+What happens to lightred objects when they collide with gold objects?
+1) nothing happens to lightred objects when they collide with gold objects
+2) lightred objects die when they collide with gold objects
+3) lightred objects get transformed when they collide with gold objects
+4) lightred objects steal resource from gold objects when both collide
+5) lightred objects die if they don't have enough resources when they collide with gold objects
+6) I don't know / something else
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+6) I don't know / something else
+
+--
+
+How do lightred objects behave?
+1) lightred objects cannot move
+2) lightred objects do not move and disappear after a certain time
+3) lightred objects regularly spawn/generate other objects
+4) lightred objects can be pushed
+5) lightred objects move along one axis
+6) lightred objects move along one axis and regularly spawn/generate objects
+7) lightred objects chase or flee another object
+8) lightred objects move randomly
+9) lightred objects are portals
+10) I don't know
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+10) I don't know
+
+--
+
+Do you need to kill brown objects to win?
+1) To win you need to reach/touch brown objects
+2) To win you need to kill all brown objects
+3) To win you don't need to kill all brown objects
+4) To win I don't know if you need to kill or reach/touch all brown objects
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+3) To win you don't need to kill all brown objects
+
+--
+
+Do you lose if purple objects die?
+1) You lose if all purple objects die or disappear
+2) You don't lose if all purple objects die or disappear
+3) I don't know if you would lose if all purple objects die or disappear
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+1) You lose if all purple objects die or disappear
+
+--
+
+Do you lose if lightred objects die?
+1) You lose if all lightred objects die or disappear
+2) You don't lose if all lightred objects die or disappear
+3) I don't know if you would lose if all lightred objects die or disappear
+
+Reasoning: .......................
+
+Answer (pick one from the list):
+2) You don't lose if all lightred objects die or disappear
+
+
+### Task
+

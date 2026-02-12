@@ -1,0 +1,1 @@
+You must reach the gold block!! To do this push the green blocks to negate the other blocks, be careful of backing yourself in to a dead end!

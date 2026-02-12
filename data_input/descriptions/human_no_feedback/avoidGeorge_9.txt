@@ -1,0 +1,9 @@
+DarkBlue Square(You) moves(Arrows) across the map.
+
+You create a BrownSquare(SpaceBar) in the direction you move towards, transforming purple squares into green squares.
+
+LightBlue Square(Enemy) will transform Green Squares into purple squares(Resource).
+
+Your goal is to avoid the LightBlue Square(Loss), while making sure at least one green square remains until time(unseen) is up.
+
+If the DarkBlue Squares(Ally) touch the brown squares, they will change into orange squares, and will travel the map and transform squares for you.

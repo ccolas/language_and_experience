@@ -1,0 +1,1 @@
+You need to move your character over the gold and light blue squares.  To win the game you need to get to the light green square. In the levels coming up you needs to move up from light blue to dark blue to get to different areas. Do not let the other colors touch you because you will lose a life. 

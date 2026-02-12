@@ -1,0 +1,1 @@
+Move with your arrow keys and shoot with the space bar. To win, you must eliminate the green and light blue touch green to kill the and shoot light blue to destroy them. You'll loss if all green die. Since light blue can transform green into them, you must protect your green and try to eliminate the light blue.

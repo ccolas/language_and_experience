@@ -1,0 +1,40 @@
+# Generational/Chain Learning Configuration
+# Agent learns across multiple generations, each generation receiving
+# descriptions from the previous generation's best theory
+
+experiment:
+  condition: chain
+  exp_id: chain_learning
+  n_generations: 10
+  n_lives_per_gen: 2
+  stop_when_solved: false
+  agent_reset: true  # Reset agent between generations
+
+language:
+  use_language_proposal: true
+  use_language_likelihood: true
+  msg_source: null  # First generation has no input; subsequent generations receive descriptions
+
+inference:
+  algorithm: smc
+  n_particles: 20
+  n_smc_steps: 1
+  n_mcmc_steps: 5
+  n_simulations_likelihood: 10
+  n_transitions_likelihood: 250
+
+planning:
+  planner_type: evo
+  time_budget: 2
+  stickiness: 0.15
+  discount: 0.99
+  planning_horizon_info: [4, 10, 5]
+  safety_trials: 20
+  safety_distance: 3
+
+llm:
+  model: Meta-Llama-3.1-70B-Instruct
+  beta_softmax_lang_proposal: 0.25
+
+# Example usage:
+# python run_experiment.py --game beesAndBirds --condition chain --n-generations 10 --n-lives-per-gen 2

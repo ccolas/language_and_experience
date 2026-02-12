@@ -1,0 +1,1 @@
+Move darkblue square by using the arrow keys. Avoid touching the orange squares because they can kill you, push the green into orange to make orange disappear. Avoid pink square because it can kill, move pink by pushing green into it. You can touch lightblue square to make it disappear. Also you can touch yellow square to make it disappear and win the game.

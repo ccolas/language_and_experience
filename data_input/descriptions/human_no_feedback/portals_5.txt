@@ -1,0 +1,1 @@
+Use arrow keys to move Darkblue. Moving Darkblue into Lightblue will teleport you to a RANDOM yellow. The objective is to get to Lightgreen without losing any lives. Blue will teleport you directly to Orange. Watch out: Do not run into Green or ANY moving colors or you will lose a life.

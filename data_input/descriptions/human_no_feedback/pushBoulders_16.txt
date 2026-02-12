@@ -1,0 +1,1 @@
+Goal is to cover yellow square with your darkblue square by moving arrow keys. Darkgray squares are walls and immovable and not dangerous. Push green squares to eliminate orange squares in your way do not touch orange directly. Can't recall if lightblue and pink squares were movable/lethal, I tended to avoid them.

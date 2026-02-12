@@ -1,0 +1,1 @@
+Use arrow keys to control the darkblue square. Your goal is to eliminate all gold objects - touch them to kill, or push green onto them for an alternative method. You'll earn points for each gold you kill, and also for each gold that a green object kills. Be cautious of orange and pink objects, as touching them will kill you.

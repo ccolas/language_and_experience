@@ -1,0 +1,1 @@
+Move your blue square with the arrows. Push the blue squares into the white to get rid of them. In the second level you have to turn the red squares white before you can do this. Turn them white by pushing your blue square against them.

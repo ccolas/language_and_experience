@@ -1,0 +1,1 @@
+The goal is to prevent the orange squares from touching the yellow squares and prevent the brown squares from touching the red squares. You do this by shooting them. You move the blue square with the arrow keys and shoot with the spacebar. You shoot in whatever direction you pressed last.

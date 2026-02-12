@@ -1,0 +1,1 @@
+Use your arrow key to navigate and your space bar to shoot. Try using your blue to shoot the pink and green. Avoid getting shot by the pink or green. You loss when you get killed and you win when you kill as many pink and green as possible.

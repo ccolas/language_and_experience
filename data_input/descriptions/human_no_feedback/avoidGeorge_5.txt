@@ -1,0 +1,1 @@
+You have to prevent the light blue square from turning all the green squares purple when it touches them. do this by moving next to a purple square and pushing spacebar. The purple square will turn back to green. Touching the light blue square loses the game.

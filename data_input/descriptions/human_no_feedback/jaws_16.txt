@@ -1,0 +1,1 @@
+Use arrow keys only to move around. Avoid all moving squares. The lone orange square will follow your darkblue square. Have it follow you to the purple squares and then the green squares on each end of playing field. Try to stay ahead of the orange square by two blocks to avoid getting trapped.

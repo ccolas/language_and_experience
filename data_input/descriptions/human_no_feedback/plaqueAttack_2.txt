@@ -1,0 +1,1 @@
+Protect your starting squares! Your block moves with arrows and shoots with space. Your shots go in the direction you last moved.

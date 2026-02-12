@@ -1,0 +1,1 @@
+You can win the game by avoiding getting hit by the red figures by moving around with the arrow keys and hitting them with the space bar which will make each of them disappear. You can lose the game by getting hit by the red figures. 

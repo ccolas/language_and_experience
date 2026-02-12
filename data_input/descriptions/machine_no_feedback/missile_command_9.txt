@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square and spacebar to shoot pink. To win, eliminate all red and gold, but keep all green alive - shoot pink at red and gold to kill them, earning points. Avoid letting green touch red or gold, as they'll kill each other and cost you points. Since nothing can kill you, focus on protecting green while taking out red and gold.

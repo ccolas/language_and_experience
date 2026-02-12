@@ -1,0 +1,4 @@
+Get to the green blocks to win the level
+You can erase the purple blocks by stepping on them to let the lightgreen block out
+Avoid yellow blocks or you will die
+Some levels you can just go straight to the green block

@@ -1,0 +1,1 @@
+Try and move towards the figures with your arrow keys and space bar. You can win by turning them all green. You will lose if any of the figures hit you. 

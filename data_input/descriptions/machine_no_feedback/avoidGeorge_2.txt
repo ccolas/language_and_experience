@@ -1,0 +1,1 @@
+Use arrow keys to move your darkblue square and spacebar to shoot brown. To win, survive long enough while protecting the green objects - they'll die if lightblue touches them. You'll gain points when brown or orange transform purple into green, so try to create opportunities for this. Watch out: lightblue will kill you on contact, and touching them will cost you points.

@@ -1,0 +1,1 @@
+You are darkblue, use arrow keys to move, and use spacebar to shoot blue upwards. Orange summons pink, and pink moves across the level, and makes it's way down. Pink shoots red downwards, and red is dangerous. White protects from red, but gets destroyed when hit by red. Shoot pink to earn points.

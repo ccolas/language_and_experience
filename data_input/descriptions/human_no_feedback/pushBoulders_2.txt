@@ -1,0 +1,21 @@
+Use the arrow keys to move the dark blue shape.
+
+Your goal is to:
+
+Try and catch the yellow shape before time is up, Touch the green shapes to remove them.. 
+
+Be careful not touch other colors apart from the green shapes. else you lose.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+Win by reaching the yellow block. Do not touch pink/orange block by themselves. Use green block to move pink/orange. 

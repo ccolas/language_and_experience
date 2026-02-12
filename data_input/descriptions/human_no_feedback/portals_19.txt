@@ -1,0 +1,1 @@
+Use arrow keys to navigate your character and avoid lightred pink objects—they will end the game if touched. If you get trapped, use lightblue objects to teleport to a different location. Focus on keeping a safe distance from hazards while planning your moves strategically.

@@ -1,0 +1,1 @@
+Move darkblue with arrow keys, use spacebar to shoot lightred. Orange and brown will move toward your yellow and red squares, but can be stopped by shooting. Protect your yellow and red squares.

@@ -1,0 +1,4 @@
+use arrow key to move
+avoid being caught by orange
+get to the other side of the game
+avoid brown and pink

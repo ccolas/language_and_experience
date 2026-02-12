@@ -1,0 +1,1 @@
+Use arrow keys to move darkblue. Orange chases you. Avoid orange, pink, and brown for as long as possible.

@@ -1,0 +1,1 @@
+Use left and right arrow keys to move your darkblue and spacebar to shoot blue. To win, eliminate all orange, pink, and brown - shoot blue at pink to kill them, but watch out for pink as it will kill you on contact. You'll also lose points if pink or red objects kill you, so be careful. You gain points when blue kills pink, and you can also kill white objects with blue.

@@ -1,0 +1,1 @@
+You can lose the game by moving your blue square around too much with your arrows without erasing any of the other squares. This game is difficult. I'm not really sure how the space bar is used. It looks like it shoots directly in front of your blue square to try and eliminate the other squares on the board. 

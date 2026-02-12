@@ -1,0 +1,1 @@
+Dodge all the yellow squares. You will lose if you are hit by them. Collect the Red Squares. In order to get past the orange squares, clear out the purples squares. Once that is done the light green square will be free and remove the orange obstacles. You will be able to collect the squares after. 

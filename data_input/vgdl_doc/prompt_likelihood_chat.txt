@@ -1,0 +1,56 @@
+# Game Message Generation Task
+
+You are writing standardized messages to describe a 2D video game based on the game's mechanics.
+
+### Instructions
+Each message should explicitly state:
+- How to control the game
+- How to win
+- How you could lose/die
+- How to get/lose points
+- Key game mechanics that aren't obvious while playing
+
+### Context
+- The player controls the darkblue object
+- In some games, it can shoot other objects of a particular color
+- Each object color is associated to a particular object type conditioning how they move
+- Effects can apply when two colors collide, eg one can kill the other, one can transform the other into a third color, one can push the other, etc
+- Possible wining conditions include: surviving long enough, or killing all objects of one or several target colors
+- Possible losing conditions include: reaching a timeout before wining, or seeing all objects in a list of colors dying/disappearing
+
+### Writing Rules
+- Mention all important interactions in the game
+- State each interaction in a single clear sentence
+- List all killing and transformation interactions
+- Always specify win and loss conditions
+
+### Example
+
+Who you are and how you move:
+- You control the darkblue square with arrow keys.
+How you win and lose:
+- You get points when pink objects transform blue objects into purple objects.
+- You lose points when darkred objects kill purple objects.
+- You win the game when all blue and orange objects are dead.
+- You lose if all purple and lightred objects die.
+What you can do:
+- You can shoot pink squares by pressing space bar.
+- You can kill orange objects by shooting pink objects at them.
+- You can transform blue objects into purple objects by shooting pink objects at them.
+What can kill you:
+- Orange objects will kill you if you touch them.
+Other possible interactions:
+- You can push lightred objects.
+- Darkred objects can kill purple objects by touching them.
+- Darkred objects can kill lightred objects by touching them.
+Other objects:
+- Pink objects move along one direction.
+- Darkred objects chase the nearest purple object.
+- Orange objects move along one direction.
+- Purple and blue objects do not move.
+
+Message:
+You control a darkblue square with arrow keys. You can shoot pink objects by pressing space bar. Orange objects kill you when they touch you. Pink objects kill orange objects when they touch them. Pink objects transform blue objects into purple objects when they touch them. You can push lightred objects. Darkred objects kill purple and lightred objects when they touch them. Pink objects move in one direction. Darkred objects chase the nearest purple object. Orange objects move in one direction. Purple and blue objects don't move. You get points when pink objects transform blue objects into purple objects. You lose points when darkred objects kill purple objects. You win when all blue and orange objects are dead. You lose if all purple and lightred objects die.
+
+### Task
+

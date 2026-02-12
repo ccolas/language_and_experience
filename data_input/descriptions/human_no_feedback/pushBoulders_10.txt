@@ -1,0 +1,1 @@
+This is a maze game that you need to get your dark blue square to the gold square to finish. You need to move your dark blue square with the arrow keys up against a green square move around it and push it with the space bar to guard your square from the other squares on the board. Very difficult. 
